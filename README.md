@@ -7,7 +7,7 @@ toda a lógica está abstraída em uma camada.
 
 ---
 
-**Executando a aplicação**
+## Executando a aplicação 🚀
 
 Crie um arquivo `.env` seguindo o exemplo deixado da codebase
 
@@ -15,6 +15,6 @@ Execute o script `dev:server` par ainiciar a aplicação
 
 A API roda no endereço [http://localhost:3333](http://localhost:3333)
 
-**Documentação**
+## Documentação
 
 [http://localhost:3333/api-docs](http://localhost:3333/api-docs)
