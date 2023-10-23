@@ -3,7 +3,7 @@
 Api para tratamento de dados para o frontend do Mercado Livre
 
 A estrutura desta aplicação visa facilitar a escalabilidade do projeto, portanto
-toda a lógica está abstraída em uma camada.
+toda a lógica está abstraída em uma camada separada.
 
 ---
 
