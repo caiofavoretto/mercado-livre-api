@@ -9,9 +9,9 @@ toda a lógica está abstraída em uma camada separada.
 
 ## Executando a aplicação 🚀
 
-Crie um arquivo `.env` seguindo o exemplo deixado da codebase
+Crie um arquivo `.env` seguindo o exemplo deixado na codebase
 
-Execute o script `dev:server` par ainiciar a aplicação
+Execute o script `dev:server` para iniciar a aplicação
 
 A API roda no endereço [http://localhost:3333](http://localhost:3333)
 
