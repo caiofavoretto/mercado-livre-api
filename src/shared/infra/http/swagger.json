@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Mercado Livre BFF Documentation",
+    "description": "",
+    "version": "1.0.0",
+    "contact": {
+      "email": "caiowfavoretto@gmail.com"
+    }
+  },
+  "paths": {
+    "/api/items": {
+      "get": {
+        "summary": "Buscar itens ou produtos",
+        "description": "É possível buscar informações de produtos a partir de uma entrada de texto",
+
+        "parameters": [
+          {
+            "name": "search",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "tags": ["Generic"]
+      }
+    },
+    "/api/items/:id": {
+      "get": {
+        "summary": "Buscar detalhes de um item",
+        "description": "Busca os detalhes de um item baseado no id",
+
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "format": "string"
+          }
+        ],
+        "tags": ["Generic"]
+      }
+    }
+  }
+}
